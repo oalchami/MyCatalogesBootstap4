@@ -13,3 +13,13 @@
   <link href="../node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
   <link href="../node_modules/font-awesome/css/font-awesome.css" rel="stylesheet" />
   <script src="../node_modules/jquery/dist/jquery.js"></script>
+
+
+npm install --save bootstrap
+npm install --save jquery
+npm install --save popper.js
+
+attention à l'ordre de la ligne :
+    <script src="../node_modules/popper.js/dist/umd/popper.js"></script>
+
+il est avant bootstrap
